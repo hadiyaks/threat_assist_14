@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>SentinelLink</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
 
@@ -33,17 +33,12 @@
     <div class="main">
 
         <div class="chat-header">
-            <input type="text" placeholder="Describe your issue...">
+            <div class="chathead" >Describe your issue...</div>
         </div>
 
         <div id="chat-box" class="chat-box"></div>
 
         <div class="input-area">
-            <select id="country">
-                <option value="india">India</option>
-                <option value="usa">USA</option>
-            </select>
-
             <input type="text" id="message" placeholder="Type your issue...">
             <button onclick="sendMessage()">↑</button>
         </div>
