@@ -1,7 +1,7 @@
 import requests
 import base64
 
-API_KEY = "4c9ddf96bddee3df20c26662f4c11297e45a6c8aedbf7333eeba54168f9d6962"
+API_KEY = "api key here"
 
 def check_url(url):
     headers = {"x-apikey": API_KEY}
