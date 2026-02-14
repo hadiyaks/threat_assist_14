@@ -63,6 +63,18 @@ streamlit run app.py
 ```
 ---
 
+## Project Documentation
+
+### For Software:
+
+#### Screenshots (Add at least 3)
+image/<img width="1895" height="999" alt="Screenshot 2026-02-14 101032" src="https://github.com/user-attachments/assets/0664fc51-f780-41f6-9c11-931761e12c9b" />
+
+image/<img width="1520" height="953" alt="Screenshot 2026-02-14 101059" src="https://github.com/user-attachments/assets/6884100c-461e-4849-b910-8f5d5391a26e" />
+image/<img width="1161" height="876" alt="Screenshot 2026-02-14 101128" src="https://github.com/user-attachments/assets/856cae78-edf8-4435-bd06-afaa0acaf96b" />
+
+
+
 ---
 
 Made with ❤️ at TinkerHub
