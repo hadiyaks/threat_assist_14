@@ -2,27 +2,27 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+#  Threat Assist 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: BitCrew
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Amalna Sherif - ilahia college of engineering and technology
+- Member 2: Hadiya KS - ilahia college of engineering and technology
 
 ### Hosted Project Link
-[mention your project hosted link here]
+https://hadiyaks.github.io/threat_assist_14/
 
 ### Project Description
-[2-3 lines about what your project does]
+SentinelLink is a specialized cybersecurity first-responder chatbot designed to triage digital threats in real-time. It provides users with instant, rule-based diagnoses of issues like ransomware and phishing while integrating live URL scanning to verify suspicious links.
 
 ### The Problem statement
-[What problem are you solving?]
+Cybercrime victims often lose critical "golden hour" time because they don't know if an issue is a real threat or how to report it. Existing AI tools can sometimes give vague or "hallucinated" security advice, leading to further data loss or confusion.
 
 ### The Solution
-[How are you solving it?]
+We solve this by using a deterministic, rule-based logic engine that provides 100% reliable security advice based on specific threat patterns. The app integrates the VirusTotal API for objective link analysis and provides direct redirection to official legal redress portals like IC3 and Cybercrime.gov.in.
 
 ---
 
@@ -31,25 +31,20 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
-
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Languages used: Python,HTML,CSS,javascript
+- Frameworks used: Streamlit
+- Libraries used: requests,json,re,base64
+- Tools used: vs code,github
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: Rule-Based Triage: Instant diagnosis of Ransomware, Phishing, and Malware using high-precision keyword matching.
+- Feature 2: VirusTotal Integration: Automated URL scanning against 70+ antivirus engines via API.
+- Feature 3:Localized Recovery Plans: Step-by-step emergency instructions (e.g., "Disconnect Internet") tailored to the threat.
+- Feature 4:Legal Redress Mapping: One-click redirection to the correct government reporting portal based on the detected crime.
 
 ---
 
@@ -59,22 +54,13 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+pip install streamlit requests
 ```
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+streamlit run app.py
 ```
-
-### For Hardware:
-
-#### Components Required
-[List all components needed with specifications]
-
-#### Circuit Setup
-[Explain how to set up the circuit]
-
 ---
 
 ## Project Documentation
@@ -83,15 +69,19 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+image/<img width="1895" height="999" alt="Screenshot 2026-02-14 101032" src="https://github.com/user-attachments/assets/eb5cd498-7e71-4aaa-a78c-7be0a4e2cc98" />
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+this image  contains the interface of threat assist
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+image/<img width="1520" height="953" alt="Screenshot 2026-02-14 101059" src="https://github.com/user-attachments/assets/aa1572c8-e820-4e96-b44f-399c41a571a4" />
 
+The system analyzes the input “I got a lot of OTP” and correctly identifies it as Phishing with high confidence.
+It assigns a Medium severity level and provides preventive actions such as avoiding suspicious links, changing passwords, and enabling 2FA.
+
+image/<img width="1161" height="876" alt="Screenshot 2026-02-14 101128" src="https://github.com/user-attachments/assets/d9817fbf-4855-45d4-9653-84541d369e1c" />
+
+For the input “My laptop is lagging and overheated,” the system classifies the issue as Uncertain with low severity.
+It recommends general safety measures like running an antivirus scan and seeking cybersecurity support.
 #### Diagrams
 
 **System Architecture:**
@@ -118,7 +108,8 @@ List the key features of your project:
 
 #### Build Photos
 
-![Team](Add photo of your team here)
+image/![WhatsApp Image 2026-02-14 at 10 27 55 AM](https://github.com/user-attachments/assets/6876e41e-956c-4ea6-942b-925cba6d7c72)
+
 
 ![Components](Add photo of your components here)
 *List out all components shown*
@@ -228,7 +219,7 @@ xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
 | Jumper Wires | 20 | Male-to-Male | ₹50 | [Link] |
 | [Add more...] | | | | |
 
-**Total Estimated Cost:** ₹[Amount]
+**Total Estimated Cost:** ₹0
 
 #### Assembly Instructions
 
